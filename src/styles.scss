@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+@font-face {
+    font-family: RedHatText;
+    src: url('assets/fonts/RedHatText-Bold.ttf');
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(30,30,40), rgb(36,30,44)) !important;
+    font-family: RedHatText !important;
+}
+
+::selection{
+    background: #CC5674;
+    color: #FFF;
+}

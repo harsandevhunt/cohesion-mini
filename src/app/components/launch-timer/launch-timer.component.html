@@ -1,0 +1,22 @@
+<section>
+    <div class="timerContainer">
+        <div class="timerBoxes">
+            <div>
+                <div class="card"> {{ remainingDays | number:'2.0' }} </div>
+                <div class="cardLabel">Days</div>
+            </div>
+            <div>
+                <div class="card"> {{ remainingHours | number:'2.0' }} </div>
+                <div class="cardLabel">Hours</div>
+            </div>
+            <div>
+                <div class="card"> {{ remainingMins | number:'2.0' }} </div>
+                <div class="cardLabel">Minutes</div>
+            </div>
+            <div>
+                <div class="card"> {{ remainingSecs | number:'2.0' }} </div>
+                <div class="cardLabel">Seconds</div>
+            </div>
+        </div>
+    </div>
+</section>
